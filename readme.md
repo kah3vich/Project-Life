@@ -1,6 +1,6 @@
 # Life 
 
-<a href="https://pugjs.org"><img src="https://github.com/kah3vich/Project-Life/blob/master/app/img/more/1.jpg" width="360" height="370" align="right"></a>
+<a href="https://github.com/kah3vich"><img src="https://github.com/kah3vich/Project-Life/blob/master/dist/img/more/1.jpg" width="360" height="370" align="right"></a>
 
 ``` Основная идея была создание галереи, в которой будут представлены работы современных фотографов и любителей. Так же в план входило добавление анимации - появление блоков и parallax эффект.```
 
