@@ -1,0 +1,138 @@
+.footer {
+	width: 100%;
+	height: 1000px;
+	background-color: #000;
+    position: relative;
+}
+.footer__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 1000px;
+}
+.footer__title {
+    text-align: center;
+    margin: 0px auto 50px auto;
+    font-weight: 300;
+    font-family: Adieu Light,sans-serif;
+    font-size: 3.75rem;
+    line-height: 3.125rem;
+    color: #fff;
+}
+.footer__text {
+    text-align: center;
+    margin: 0px auto 50px auto;
+    font-weight: 300;
+    font-family: Adieu Light,sans-serif;
+    font-size: 20px;
+    line-height: 3.125rem;
+    color: #fff;
+}
+.footer__menu-list {
+    height: 200px;
+    width: 732px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__menu-item {
+    border: 3px solid #d5a54e;
+    background: #000;
+}
+.footer__menu-item:hover {
+    background: #d5a54e;
+}
+.footer__menu-item:nth-child(even) {
+    margin-top: auto;
+}
+.footer__menu-item:nth-child(odd) {
+    margin-bottom: auto;
+}
+.footer__menu-item p {
+    width: 61px;
+    height: 100%;
+    text-align: center;
+    color: #d5a54e;
+}
+.footer__menu-item svg {
+    margin-bottom: 15px;
+    fill: #d5a54e;
+}
+.footer__menu-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__support {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto auto 50px 50px;
+}
+.footer__support-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer__support-container svg {
+    fill: #d5a54e;
+}
+.footer__support-text {
+    color: gray;
+    font-family: "Mak";
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer__support-name {
+    margin-left: 15px;
+    font-weight: 300;
+    font-family: "Adieu Light", sans-serif;
+    font-size: 19px;
+    line-height: 3.125rem;
+    color: #fff;
+}
+.footer__date {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+.footer__date-text {
+    font-weight: 300;
+    font-family: Adieu Light,sans-serif;
+    font-size: 14px;
+    line-height: 3.125rem;
+    color: gray;
+}
+.footer__menu-card:hover {
+    background: #d5a54e;
+    transition: .4s ease;
+}
+.footer__menu-card {
+    background: #000;
+    text-align: center;
+    padding: 38px;
+    transition: .4s ease;
+}
+.footer__menu-card .footer__menu-text {
+    color: #d5a54e;
+    transition: .4s ease;
+    width: 66px;
+    font-weight: 600;
+    font-family: "Adieu Light", sans-serif;
+    font-size: 14px;
+}
+.footer__menu-card .footer__menu-icons svg {
+    fill: #d5a54e;
+    transition: .4s ease;
+}
+.footer__menu-card:hover .footer__menu-text {
+    color: #000;
+    transition: .4s ease;
+}
+.footer__menu-card:hover .footer__menu-icons svg {
+    fill: #000;
+    transition: .4s ease;
+}
