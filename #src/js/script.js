@@ -1,6 +1,6 @@
 @@include('cursor.js')
-@@include('scroll.js')
 @@include('parallax.js')
+@@include('scroll.js')
 
 /* Включение всей анимации на странице с определенными параметрами */
 var wow = new WOW({

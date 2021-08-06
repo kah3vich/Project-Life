@@ -20,8 +20,8 @@
   - CircleType <br />
 </details>
 
-#### Отдельная благородность :
+#### Отдельная благодарность :
 
-- ##### [Шпуля](https://www.instagram.com/mdxkah) - контент 
-- ##### [Slava K.](https://www.instagram.com/geexarts) - дизайн
+- ##### [Шпуля](https://www.instagram.com/mdxkah)
+- ##### [Slava K.](https://www.instagram.com/geexarts)
 

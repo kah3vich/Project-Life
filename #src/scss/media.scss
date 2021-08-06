@@ -1,3 +1,56 @@
+@media (max-height: 1000px) {
+    .header__circle-shape-4 {
+        top: 9%;
+    }
+    .header__circle-shape-5 {
+        top: 64%;
+    }
+    .header__circle-shape-5 {
+        top: 64%;
+    }
+}
+@media (max-height: 850px) {
+    .header__circle-shape {
+        top: 50%;
+        left: 50%;
+        width: 600px;
+        height: 600px;
+    }
+    .header__animate-word {
+        font-size: 110px;
+    }
+    .header__circle-shape-3 {
+        top: 7%;
+        left: 17%;
+    }
+    .header__circle-shape-5 {
+        top: 57%;
+    }
+    .header__circle-shape-2 {
+        top: 63%;
+    }
+}
+@media (max-width: 1850px) {
+    .street__images-2 {
+        right: 60px;
+    }
+}
+@media (max-width: 1790px) {
+    .street__images-2 {
+        right: 90px;
+    }
+    .calisthenics__images-2 {
+        right: -60px;
+    }
+    .header__text-one {
+        right: -70px;
+    }
+    .header__menu {
+        right: -25px;
+        padding: 40px 0px 40px 40px;
+    }
+}
+
 @media (max-width: 1740px) {
     .header__menu {
         right: 0;
@@ -191,7 +244,7 @@
         left: 14%;
     }
     .poster__images-1 {
-        width: 1200px;
+        width: 1170px;
         height: 690px;
         top: 170px;
         left: 90px;
@@ -312,6 +365,858 @@
     }
 }
 @media (max-width: 1200px) {
-
+    .header__circle-shape {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        width: 600px;
+        height: 600px;
+        border: 1px solid #112819;
+        border-radius: 100%;
+    }
+    .header__animate-word {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 110px;
+        color: #d5a54e;
+    }
+    .poster__images-1 {
+        width: 1100px;
+        height: 690px;
+        top: 170px;
+        left: 50px;
+    }
+    .poster__images-2 {
+        width: 700px;
+        height: 800px;
+        position: absolute;
+        top: 900px;
+        right: 47px;
+    }
+    .poster__images-3 {
+        width: 860px;
+        height: 850px;
+        top: 1800px;
+        left: 50px;
+    }
+    .poster__text-2 {
+        left: 450px;
+    }
+    .calisthenics__images-3 {
+        width: 910px;
+    }
+    .calisthenics__text-2 {
+        left: 565px;
+        z-index: 40;
+    }
+    .skating__images-1 {
+        width: 1020px;
+    }
+    .skating__images-4 {
+        top: 1915px;
+    }
+    .skating__circle-container {
+        right: 65px;
+    }
+    .street__images-1 {
+        width: 1110px;
+        left: 35px;
+        height: 700px;
+    }
+    .street__img-2 {
+        display: none;
+    }
+    .street__images-4 {
+        width: 600px;
+        height: 885px;
+        top: 1050px;
+        left: 190px;
+    }
+    .street__images-5 {
+        top: 1700px;
+    }
+    .street__text-2 {
+        left: 301px;
+    }
+}
+@media (max-width: 1150px) {
+    .street__images-1 {
+        width: 1030px;
+        left: 35px;
+        height: 700px;
+    }
+    .skating__images-5 {
+        width: 900px;
+        height: 500px;
+        position: absolute;
+        top: 2270px;
+        left: 90px;
+    }
+    .skating__images-4 {
+        top: 1955px;
+    }
+    .skating__images-1 {
+        width: 970px;
+    }
+    .calisthenics__images-5 {
+        width: 935px;
+        top: 2240px;
+    }
+    .calisthenics__images-4 {
+        width: 900px;
+        height: 450px;
+        position: absolute;
+        top: 1800px;
+        right: 50px;
+    }
+    .calisthenics__text-2 {
+        left: 470px;
+        z-index: 40;
+    }
+    .calisthenics__images-1 {
+        width: 900px;
+    }
+    .poster__text-2 {
+        left: 410px;
+    }
+    .poster__images-2 {
+        width: 700px;
+        height: 800px;
+        position: absolute;
+        top: 900px;
+        right: 60px;
+    }
+    .poster__images-1 {
+        width: 1000px;
+        height: 690px;
+        top: 170px;
+        left: 50px;
+    }
+    .calisthenics__item-title {
+        color: red;
+        font-family: Mak;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 1100px) {
+    .street__text-3 {
+        width: 650px;
+    }
+    .street__text-2 {
+        left: 240px;
+    }
+    .street__text-1 {
+        position: absolute;
+        top: 950px;
+        left: 140px;
+        width: 900px;
+        height: 200px;
+        z-index: 100;
+        color: red;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .street__images-1 {
+        width: 1000px;
+        left: 35px;
+        height: 700px;
+    }
+    .skating__images-5 {
+        width: 850px;
+        height: 500px;
+        position: absolute;
+        top: 2580px;
+        left: 90px;
+    }
+    .skating__images-1 {
+        width: 920px;
+    }
+    .calisthenics__images-5 {
+        width: 900px;
+        top: 2240px;
+    }
+    .calisthenics__text-2 {
+        left: 425px;
+        z-index: 40;
+    }
+    .calisthenics__images-4 {
+        width: 860px;
+        height: 450px;
+        position: absolute;
+        top: 1800px;
+        right: 120px;
+    }
+    .calisthenics__text-1 {
+        width: 685px;
+    }
+    .calisthenics__images-2 {
+        width: 610px;
+        height: 750px;
+        top: 665px;
+    }
+    .poster__images-3 {
+        width: 830px;
+        height: 850px;
+        top: 1800px;
+        left: 50px;
+    }
+    .poster__text-2 {
+        left: 375px;
+    }
+    .header__text-two {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1050px) {
+    .footer__text {
+        font-size: 18px;
+    }
+    .street__item-title {
+        font-size: 23px;
+    }
+    .street__images-4 {
+        width: 600px;
+        height: 885px;
+        top: 915px;
+        left: 190px;
+    }
+    .street__images-1 {
+        width: 970px;
+        left: 35px;
+        height: 700px;
+    }
+    .skating__item-title {
+        font-size: 26px;
+    }
+    .skating__images-5 {
+        width: 834px;
+    }
+    .skating__images-4 {
+        height: 395px;
+        top: 1980px;
+    }
+    .skating__images-1 {
+        width: 900px;
+    }
+    .calisthenics__images-5 {
+        width: 850px;
+        top: 2240px;
+    }
+    .calisthenics__text-2 {
+        left: 389px;
+        z-index: 40;
+    }
+    .calisthenics__images-3 {
+        width: 910px;
+    }
+    .calisthenics__images-2 {
+        right: 101px;
+    }
+    .calisthenics__images-1 {
+        width: 857px;
+    }
+    .poster__images-3 {
+        width: 780px;
+        height: 850px;
+        top: 1800px;
+        left: 50px;
+    }
+    .poster__text-2 {
+        left: 335px;
+    }
+    .poster__images-1 {
+        width: 940px;
+        height: 690px;
+        top: 170px;
+        left: 50px;
+    }
+    .header__circle-shape-2 {
+        right: 5%;
+    }
+    .header__circle-shape-5 {
+        left: 10%;
+    }
+    .header__circle-shape-5 {
+        left: 10%;
+    }
+    .header__circle-shape-5 {
+        left: 9%;
+    }
+}
+@media (max-width: 1000px) {
+    .poster__images-1 {
+        width: 895px;
+        height: 690px;
+        top: 170px;
+        left: 50px;
+    }
+    .poster__images-2 {
+        width: 630px;
+        height: 800px;
+        position: absolute;
+        top: 900px;
+        right: 50px;
+    }
+    .poster__images-3 {
+        width: 763px;
+        height: 850px;
+        top: 1800px;
+        left: 50px;
+    }
+    .poster__text-2 {
+        left: 295px;
+    }
+    .skating__text-1 {
+        position: absolute;
+        top: 1090px;
+        left: 110px;
+        width: 700px;
+        height: 200px;
+        z-index: 40;
+        color: red;
+        font-size: 72px;
+        font-weight: 700;
+    }
+    .skating__text-2 {
+        position: absolute;
+        top: 1860px;
+        left: 200px;
+        width: 720px;
+        height: 140px;
+    }
+    .street__text-1 {
+        position: absolute;
+        top: 950px;
+        left: 140px;
+        width: 785px;
+        height: 200px;
+        z-index: 100;
+        color: red;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .street__text-2 {
+        left: 150px;
+    }
+    .street__images-1 {
+        width: 925px;
+        left: 35px;
+        height: 700px;
+    }
+    .skating__images-5 {
+        width: 783px;
+    }
+    .skating__images-3 {
+        width: 850px;
+        height: 460px;
+        top: 1390px;
+        left: 80px;
+    }
+    .skating__images-2 {
+        width: 650px;
+        height: 735px;
+        top: 550px;
+        right: 130px;
+        top: 655px;
+    }
+    .skating__images-1 {
+        width: 833px;
+    }
+    .calisthenics__images-5 {
+        width: 815px;
+        top: 2240px;
+        left: 60px;
+    }
+    .calisthenics__text-2 {
+        left: 360px;
+        z-index: 40;
+    }
+    .calisthenics__images-4 {
+        width: 785px;
+        height: 450px;
+        position: absolute;
+        top: 1800px;
+        right: 120px;
+    }
+    .calisthenics__img-5 {
+        position: absolute;
+        top: -75%;
+        left: -18%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    .calisthenics__images-3 {
+        width: 852px;
+    }
+    .calisthenics__images-1 {
+        width: 800px;
+    }
+}
+@media (max-width: 950px) {
+    .header__circle-shape-2 {
+        display: none;
+    }
+    .header__circle-shape-3 {
+        display: none;
+    }
+    .header__circle-shape-4 {
+        display: none;
+    }
+    .header__circle-shape-5 {
+        display: none;
+    }
+    .street__images-1 {
+        width: 850px;
+        left: 35px;
+        height: 700px;
+    }
+    .street__text-1 {
+        position: absolute;
+        top: 925px;
+        left: 140px;
+        width: 750px;
+        height: 235px;
+        z-index: 100;
+        color: red;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .street__images-5 {
+        top: 1600px;
+    }
+    .skating__images-5 {
+        width: 750px;
+        top: 2579px;
+        left: 66px;
+    }
+    .skating__images-4 {
+        width: 675px;
+    }
+    .skating__images-3 {
+        width: 775px;
+        height: 460px;
+        top: 1460px;
+        left: 80px;
+    }
+    .skating__images-1 {
+        width: 770px;
+    }
+    .calisthenics__images-5 {
+        width: 780px;
+        top: 2240px;
+        left: 60px;
+    }
+    .calisthenics__text-2 {
+        left: 300px;
+        z-index: 40;
+    }
+    .calisthenics__images-4 {
+        width: 710px;
+        height: 450px;
+        position: absolute;
+        top: 1800px;
+        right: 120px;
+    }
+    .calisthenics__images-3 {
+        width: 765px;
+    }
+    .calisthenics__images-1 {
+        width: 741px;
+    }
+    .skating__item-title {
+        font-size: 22px;
+    }
+    .street__item-title {
+        font-size: 20px;
+    }
+    .calisthenics__item-title {
+        color: red;
+        font-family: Mak;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .poster__item-title {
+        color: #d5a54e;
+        font-family: Mak;
+        font-size: 23px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .poster__images-3 {
+        width: 700px;
+        height: 850px;
+        top: 1800px;
+        left: 50px;
+    }
+    .poster__text-2 {
+        left: 234px;
+    }
+    .poster__images-2 {
+        width: 560px;
+        height: 800px;
+        position: absolute;
+        top: 900px;
+        right: 50px;
+    }
+    .poster__images-1 {
+        width: 820px;
+        height: 690px;
+        top: 170px;
+        left: 50px;
+    }
+}
+@media (max-width: 900px) {
+    .street__text-2 {
+        left: 90px;
+    }
+    .street__text-1 {
+        position: absolute;
+        top: 924px;
+        left: 52px;
+        width: 750px;
+        height: 235px;
+        z-index: 100;
+        color: red;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .street__images-1 {
+        width: 790px;
+        left: 35px;
+        height: 700px;
+    }
+    .skating__images-5 {
+        width: 685px;
+        top: 2579px;
+        left: 66px;
+        height: 435px;
+    }
+    .skating__images-3 {
+        width: 775px;
+        height: 460px;
+        top: 1440px;
+        left: 24px;
+    }
+    .skating__text-2 {
+        position: absolute;
+        top: 1860px;
+        left: 95px;
+        width: 720px;
+        height: 140px;
+    }
+    .skating__images-1 {
+        left: 40px;
+        width: 775px;
+    }
+    .skating__item-title {
+        font-size: 20px;
+    }
+    .calisthenics__item-title {
+        color: red;
+        font-family: Mak;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .calisthenics__images-5 {
+        width: 705px;
+        top: 2275px;
+        left: 60px;
+    }
+    .calisthenics__text-2 {
+        left: 230px;
+        z-index: 40;
+    }
+    .calisthenics__images-4 {
+        width: 670px;
+        height: 450px;
+        position: absolute;
+        top: 1800px;
+        right: 120px;
+    }
+    .calisthenics__images-3 {
+        width: 765px;
+    }
+    .calisthenics__images-1 {
+        left: 60px;
+    }
+    .poster__images-3 {
+        width: 640px;
+        height: 800px;
+        top: 1900px;
+        left: 50px;
+    }
+    .poster__text-2 {
+        left: 180px;
+    }
+    .poster__text-1 {
+        left: -270px;
+    }
+    .poster__images-2 {
+        width: 560px;
+        height: 800px;
+        position: absolute;
+        top: 975px;
+        right: 50px;
+    }
+    .poster__images-1 {
+        width: 765px;
+        height: 690px;
+        top: 170px;
+        left: 50px;
+    }
+}
+@media (max-width: 850px) {
+    .street__text-2 {
+        left: 90px;
+    }
+    .street__images-4 {
+        width: 600px;
+        height: 885px;
+        top: 870px;
+        left: 110px;
+    }
+    .street__images-1 {
+        width: 745px;
+        left: 35px;
+        height: 700px;
+    }
+    .skating__images-5 {
+        width: 640px;
+        top: 2579px;
+        left: 66px;
+        height: 435px;
+    }
+    .skating__images-3 {
+        width: 745px;
+        height: 450px;
+        top: 1475px;
+        left: 0px;
+    }
+    .skating__text-2 {
+        position: absolute;
+        top: 1849px;
+        left: 95px;
+        width: 720px;
+        height: 140px;
+    }
+    .skating__images-2 {
+        width: 650px;
+        height: 735px;
+        top: 550px;
+        right: 70px;
+        top: 655px;
+    }
+    .skating__images-1 {
+        left: 40px;
+        width: 775px;
+    }
+    .calisthenics__text-2 {
+        left: 200px;
+        z-index: 40;
+    }
+    .calisthenics__images-4 {
+        width: 670px;
+        height: 450px;
+        position: absolute;
+        top: 1800px;
+        right: 70px;
+    }
+    .calisthenics__images-3 {
+        width: 690px;
+        left: 50px;
+    }
+    .calisthenics__item-title {
+        color: red;
+        font-family: Mak;
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .calisthenics__item-4 {
+        width: 100px;
+    }
+    .header__text-two {
+        top: 15px;
+        font-size: 12px;
+    }
+    .street__text-2 {
+        left: 25px;
+    }
+    .street__text-1 {
+        position: absolute;
+        top: 924px;
+        left: 52px;
+        width: 750px;
+        height: 235px;
+        z-index: 100;
+        color: red;
+        font-size: 43px;
+        font-weight: 700;
+    }
+    .skating__images-5 {
+        width: 640px;
+        top: 2579px;
+        left: 40px;
+        height: 435px;
+    }
+    .skating__images-1 {
+        left: 40px;
+        width: 715px;
+    }
+    .calisthenics__images-5 {
+        width: 675px;
+        top: 2275px;
+        left: 60px;
+    }
+    .calisthenics__text-2 {
+        left: 175px;
+        z-index: 40;
+    }
+    .calisthenics__images-1 {
+        width: 690px;
+    }
+    .poster__item-title {
+        color: #d5a54e;
+        font-family: Mak;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .poster__images-3 {
+        width: 615px;
+        height: 800px;
+        top: 1900px;
+        left: 29px;
+    }
+    .poster__text-2 {
+        left: 140px;
+    }
+    .poster__text-1 {
+        left: -290px;
+    }
+    .poster__images-2 {
+        width: 560px;
+        height: 800px;
+        position: absolute;
+        top: 975px;
+        right: 25px;
+    }
+    .poster__images-1 {
+        width: 735px;
+        height: 690px;
+        top: 170px;
+        left: 35px;
+    }
+    .skating__item {
+        width: 100px;
+    }
+    .skating__item-title {
+        font-size: 14px;
+    }
+    .footer__text {
+        font-size: 17px;
+    }
+}
+@media (max-width: 800px) {
+    .street__text-1 {
+        position: absolute;
+        top: 924px;
+        left: 52px;
+        width: 650px;
+        height: 235px;
+        z-index: 100;
+        color: red;
+        font-size: 43px;
+        font-weight: 700;
+    }
+    .street__images-1 {
+        width: 690px;
+        left: 35px;
+        height: 700px;
+    }
+    .skating__text-2 {
+        position: absolute;
+        top: 1849px;
+        left: 95px;
+        width: 575px;
+        height: 140px;
+    }
+    .street__text-2 {
+        left: 4px;
+    }
+    .street__images-4 {
+        width: 600px;
+        height: 885px;
+        top: 870px;
+        left: 90px;
+    }
+    .header__text-two {
+        display: none;
+    }
+    .header__text-one {
+        right: 355px;
+    }
+    .poster__images-1 {
+        width: 700px;
+        height: 690px;
+        top: 170px;
+        left: 35px;
+    }
+    .poster__images-2 {
+        width: 505px;
+        height: 800px;
+        position: absolute;
+        top: 975px;
+        right: 25px;
+    }
+    .poster__images-3 {
+        width: 555px;
+        height: 800px;
+        top: 1900px;
+        left: 29px;
+    }
+    .poster__text-2 {
+        left: 80px;
+    }
+    .calisthenics__images-1 {
+        width: 685px;
+        left: 45px;
+    }
+    .calisthenics__images-5 {
+        width: 675px;
+        top: 2275px;
+        left: 40px;
+    }
+    .calisthenics__images-4 {
+        width: 615px;
+        height: 450px;
+        position: absolute;
+        top: 1800px;
+        right: 70px;
+    }
+    .calisthenics__text-2 {
+        left: 135px;
+        z-index: 40;
+    }
+    .skating__images-3 {
+        width: 745px;
+        height: 450px;
+        top: 1440px;
+        left: 0;
+    }
+    .skating__images-5 {
+        width: 609px;
+        top: 2579px;
+        left: 25px;
+        height: 435px;
+    }
 }
 /* ---------------------------------------------------------------------- */
