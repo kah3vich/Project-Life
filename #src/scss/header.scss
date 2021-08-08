@@ -1,204 +1,208 @@
 .header { 
     width: 100%;
     height: 100vh;
-    background-color: #1e4029;
-}
-.header__title {
-	position: absolute;
-	top: 50%;
-	left: 45%;
-	transform: translate(-50%, -50%);
-	font-size: 32px;
-	height: 300px;
-	width: 300px;
-	font-weight: 400;
-    font-family: Cochin LT W01 Roman,sans-serif;
-	color: #d5a54e;
-	text-transform: uppercase;
-}
-.header__container {
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: "Mak";
-}
-.header__animate-word {
-	display: flex;
-	font-size: 140px;
-	color:#d5a54e;
-}
-
-.header__circle-shape {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 700px;
-	height: 700px;
-    border: 1px solid #112819;
-	border-radius: 100%;
-}
-.header__circle-shape-2 {
-	position: absolute;
-	top: 72%;
-    right: 16%;
-	transform: translate(-50%, -50%);
-	width: 240px;
-	height: 240px;
-}
-.header__circle-shape-3 {
-	position: absolute;
-	top: 15%;
-	left: 16%;
-	transform: translate(-50%, -50%);
-	width: 140px;
-	height: 140px;
-}
-.header__circle-shape-4 {
-	position: absolute;
-    top: 16%;
-    right: 20%;
-	transform: translate(-50%, -50%);
-	width: 140px;
-	height: 140px;
-}
-.header__circle-shape-5 {
-	position: absolute;
-	top: 68%;
-    left: 18%;
-	transform: translate(-50%, -50%);
-	width: 140px;
-	height: 140px;
-}
-.header__avatar {
-	position: absolute;
-	left: -100px;
-	bottom: 0;
-	padding: 40px 40px 40px 70px;
-	cursor: none;
-}
-.header__avatar a {
-	cursor: none;
-}
-.header__avatar-text {
-	font-family: Arial, Helvetica, sans-serif !important;
-	color: #111;
-}
-.header__avatar-text::before {
-	background-color: #000;
-    content: "";
-    height: 1.5px;
-    left: 40px;
-    position: absolute;
-    top: 48px;
-    width: 25px;
-}
-.header__avatar-name {
-	left: 40px;
-    position: absolute;
-    top: 20px;
-	font-family: Arial, Helvetica, sans-serif !important;
-	color: #111;
-	font-weight: 600;
-}
-.header__avatar-img {
-	left: 45px;
-    position: absolute;
-    top: -30px;
-    width: 45px;
-    height: 45px;
-	border-radius: 50%;
-	// background-image: url('https://avatars.githubusercontent.com/u/70528062?v=4') center center no-repeat;
-	background-size: 150%;
-}
-.header__avatar-imgs {
-	left: 0px;
-    position: absolute;
-    top: -10px;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-size: 150%;
-}
-.header__text-one { 
-    position: absolute;
-    right: -100px;
-    top: 0;
-    padding: 40px;
-    color: #111;
-    font-family: "Mak";
-	font-size: 16px;
-	color: #111;
-    width: 450px;
-    height: 40%;
-	line-height: 20px;
-}
-.header__text-one span {
-	color: #d5a54e;
-	font-size: 56px;
-	font-weight: 500;
-	text-transform: uppercase;
-}
-.header__text-two { 
-    position: absolute;
-    left: -100px;
-    top: 0;
-    padding: 40px;
-    font-family: "Mak";
-	font-size: 16px;
-    color: #111;
-    width: 450px;
-    height: 20%;
-    line-height: 20px;
-    font-weight: 800;
-}
-.header__menu { 
-	position: absolute;
-    right: -100px;
-    bottom: 0;
-    padding: 40px 70px 70px 40px;
-}
-.header__menu-list {
-	display: flex;
-	flex-direction: column;
-}
-.header__menu-item {
-	-webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #183622;
-    border: 1px solid rgba(213,165,78,.2);
-    border-top: 0;
-    cursor: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 0;
-    height: 39px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-transition: .4s ease;
-    transition: .4s ease;
-    width: 39px;
-	margin-bottom: 5px;
-} 
-.header__menu-item:last-child {
-	margin-bottom: 0;
-}
-.header__menu-item svg {
-	width: 19px;
-	height: 19px;
-	fill: #d5a54e;
-}
-.header__menu-item:hover {
-	background: #d5a54e;
-	-webkit-transition: .4s ease;
-    transition: .4s ease;
-}
-.header__menu-item:hover svg {
-	fill: #111;
+    background-color: $green;
+	&__title {
+		position: absolute;
+		top: 50%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		font-size: 32px;
+		height: 300px;
+		width: 300px;
+		font-weight: 400;
+		font-family: Cochin LT W01 Roman,sans-serif;
+		color: $golden;
+		text-transform: uppercase;
+	}
+	&__container {
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: "Mak";
+	}
+	&__animate {
+		&-word {
+			display: flex;
+			font-size: 140px;
+			color:$golden;
+		}
+	}
+	&__circle {
+		&-shape {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 700px;
+			height: 700px;
+			border: 1px solid $dark-green-2;
+			border-radius: 100%;
+			&-2 {
+				position: absolute;
+				top: 72%;
+				right: 16%;
+				transform: translate(-50%, -50%);
+				width: 240px;
+				height: 240px;
+			}
+			&-3 {
+				position: absolute;
+				top: 15%;
+				left: 16%;
+				transform: translate(-50%, -50%);
+				width: 140px;
+				height: 140px;
+			}
+			&-4 {
+				position: absolute;
+				top: 16%;
+				right: 20%;
+				transform: translate(-50%, -50%);
+				width: 140px;
+				height: 140px;
+			}
+			&-5 {
+				position: absolute;
+				top: 68%;
+				left: 18%;
+				transform: translate(-50%, -50%);
+				width: 140px;
+				height: 140px;
+			}
+		}
+	}
+	&__avatar {
+		position: absolute;
+		left: -100px;
+		bottom: 0;
+		padding: 40px 40px 40px 70px;
+		cursor: none;
+		& a {
+			cursor: none;
+		}
+		&-text {
+			font-family: Arial, Helvetica, sans-serif !important;
+			color: $black;
+			&::before {
+				background-color: $black;
+				content: "";
+				height: 1.5px;
+				left: 40px;
+				position: absolute;
+				top: 48px;
+				width: 25px;
+			}
+		}
+		&-name {
+			left: 40px;
+			position: absolute;
+			top: 20px;
+			font-family: Arial, Helvetica, sans-serif !important;
+			color: $black;
+			font-weight: 600;
+		}
+		&-img {
+			left: 45px;
+			position: absolute;
+			top: -30px;
+			width: 45px;
+			height: 45px;
+			border-radius: 50%;
+			background-size: 150%;
+		}
+		&-imgs {
+			left: 0px;
+			position: absolute;
+			top: -10px;
+			width: 45px;
+			height: 45px;
+			border-radius: 50%;
+			background-size: 150%;
+		}
+	}
+	&__text {
+		&-one {
+			position: absolute;
+			right: -100px;
+			top: 0;
+			padding: 40px;
+			color: $black;
+			font-family: "Mak";
+			font-size: 16px;
+			color: $black;
+			width: 450px;
+			height: 40%;
+			line-height: 20px;
+			& span {
+				color: $golden;
+				font-size: 56px;
+				font-weight: 500;
+				text-transform: uppercase;
+			}
+		}
+		&-two {
+			position: absolute;
+			left: -100px;
+			top: 0;
+			padding: 40px;
+			font-family: "Mak";
+			font-size: 16px;
+			color: $black;
+			width: 450px;
+			height: 20%;
+			line-height: 20px;
+			font-weight: 800;
+		}
+	}
+	&__menu {
+		position: absolute;
+		right: -100px;
+		bottom: 0;
+		padding: 40px 70px 70px 40px;
+		&-list {
+			display: flex;
+			flex-direction: column;
+		}
+		&-item {
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			background-color: $dark-green;
+			border: 1px solid rgba(213,165,78,.2);
+			border-top: 0;
+			cursor: none;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			font-size: 0;
+			height: 39px;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-transition: .4s ease;
+			transition: .4s ease;
+			width: 39px;
+			margin-bottom: 5px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			& svg {
+				width: 19px;
+				height: 19px;
+				fill: $golden;
+			}
+			&:hover {
+				background: $golden;
+				-webkit-transition: .4s ease;
+				transition: .4s ease;
+				& svg {
+					fill: $black;
+				}
+			}
+		}
+	}
 }
