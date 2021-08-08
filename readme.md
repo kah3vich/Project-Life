@@ -14,7 +14,7 @@
 <details>
   <summary>:zap: Инструменты Js</summary>
   - WOW <br />
-  - Gsap <br />
+  - GSAP <br />
   - NiceScroll <br />
   - Jquery <br />
   - CircleType <br />
