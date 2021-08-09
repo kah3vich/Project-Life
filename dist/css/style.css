@@ -1210,6 +1210,21 @@ a {
   font-weight: 700;
 }
 
+.skating__item-circle-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: red;
+  margin-left: 250px;
+}
+
+.skating__item-circle-2 {
+  width: 30px;
+  height: 60px;
+  border-radius: 100% 0 0 100%/50% 0 0 50%;
+  background: red;
+}
+
 .skating__images-1 {
   width: 1300px;
   height: 550px;
@@ -1250,15 +1265,6 @@ a {
           transform: rotate(337deg);
 }
 
-.skating__img-3 {
-  position: absolute;
-  top: -135%;
-  left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-}
-
 .skating__images-4 {
   width: 879px;
   height: 500px;
@@ -1269,15 +1275,6 @@ a {
       -ms-transform: rotate(337deg);
           transform: rotate(337deg);
   overflow: hidden;
-}
-
-.skating__img-4 {
-  position: absolute;
-  top: -60%;
-  left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
 }
 
 .skating__images-5 {
@@ -1291,6 +1288,24 @@ a {
       -ms-transform: rotate(355deg) !important;
           transform: rotate(355deg) !important;
   overflow: hidden;
+}
+
+.skating__img-3 {
+  position: absolute;
+  top: -135%;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.skating__img-4 {
+  position: absolute;
+  top: -60%;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
 
 .skating__img-5 {
@@ -1344,28 +1359,13 @@ a {
   font-weight: 700;
 }
 
-.skating__item-4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.skating__item-circle-1 {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: red;
-  margin-left: 250px;
-}
-
-.skating__item-circle-2 {
-  width: 30px;
-  height: 60px;
-  border-radius: 100% 0 0 100%/50% 0 0 50%;
-  background: red;
+.skating__circle-container {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 2400px;
+  right: 390px;
+  z-index: 1000;
 }
 
 .circle__img {
@@ -1374,15 +1374,6 @@ a {
   background: url(../img/skating/bg.jpg) no-repeat 50% 50%;
   background-size: cover;
   border-radius: 50%;
-}
-
-.skating__circle-container {
-  width: 250px;
-  height: 250px;
-  position: absolute;
-  top: 2400px;
-  right: 390px;
-  z-index: 1000;
 }
 
 .street {
