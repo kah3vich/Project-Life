@@ -889,14 +889,29 @@ a {
           justify-content: space-between;
   padding: 0 20px;
   margin-top: 50px;
-  border-top: 1.5px solid #111;
+  border-top: 1.5px solid #000;
+}
+
+.poster__list-bottom {
+  position: absolute;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 100px;
+  border-bottom: 1.5px solid #000;
+  width: 100%;
 }
 
 .poster__item {
   width: 100%;
   list-style: none;
   height: 100px;
-  border-right: 1.5px solid #111;
+  border-right: 1.5px solid #000;
 }
 
 .poster__item:last-child {
@@ -937,7 +952,7 @@ a {
 }
 
 .poster__item-font span {
-  color: #111;
+  color: #000;
   font-family: "Mak";
   font-size: 18px;
   line-height: 30px;
@@ -958,7 +973,7 @@ a {
 }
 
 .poster__item-author span {
-  color: #111;
+  color: #000;
   font-family: "Mak";
   font-size: 18px;
   line-height: 30px;
@@ -979,7 +994,7 @@ a {
 }
 
 .poster__item-number span {
-  color: #111;
+  color: #000;
   font-family: "Mak";
   font-size: 20px;
   line-height: 30px;
@@ -1022,21 +1037,6 @@ a {
   left: 90px;
   background: url(../img/underground/4.jpg) no-repeat 50% 50%;
   background-size: cover;
-}
-
-.poster__list-bottom {
-  position: absolute;
-  bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 20px;
-  margin-bottom: 100px;
-  border-bottom: 1.5px solid #111;
-  width: 100%;
 }
 
 .poster__text-1 {
