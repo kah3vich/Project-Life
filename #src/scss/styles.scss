@@ -6,54 +6,91 @@
     position: relative;
     z-index: 10;
 }
-.menu__item {
-	position: relative;
-	padding: 1.6vw 0 50px 0;
-	margin: 4px;
-}
-.menu__item-link {
-	display: inline-block;
-	cursor: none;
-	position: relative;
-	color: #fff;
-	-webkit-transition: opacity 0.4s;
-	transition: opacity 0.4s;
-	font-family: "Mak";
-	text-transform: uppercase;
-}
-.menu__item-link::before {
-	all: initial;
-	text-transform: uppercase;
-	counter-increment: menu;
-	position: absolute;
-	bottom: 60%;
-	left: 0;
-	pointer-events: none;
-}
-.menu__item-link:hover {
-	-webkit-transition-duration: 0.1s;
-	transition-duration: 0.1s;
-	opacity: 0;
-}
-.menu__item-img {
-	pointer-events: none;
-	position: absolute;
-	height: 50vh;
-	max-height: 300px;
-	opacity: 0;
-	left: 100%;
-	top: 50%;
-	-webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0)
-		translate3d(0, 20px, 0);
-	transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
-}
-.menu__item-link:hover + .menu__item-img {
-	opacity: 1;
-	-webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0)
-		rotate3d(0, 0, 1, 4deg);
-	transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 4deg);
-	-webkit-transition: all 0.4s;
-	transition: all 0.4s;
+.menu {
+	&__item {
+		position: relative;
+		padding: 1.6vw 0 50px 0;
+		margin: 4px;
+		&-container {
+			position: absolute;
+			top: 0;
+			left: 0;
+			overflow: hidden;
+			color: #fff;
+			pointer-events: none;
+			mix-blend-mode: difference;
+			& span {
+				font-family: "Mak";
+				text-transform: uppercase;
+			}
+		}
+		&-text {
+			width: -webkit-fit-content;
+			width: -moz-fit-content;
+			width: fit-content;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			position: relative;
+			-webkit-animation: menu__item 5s linear infinite;
+			animation: menu__item 5s linear infinite;
+			-webkit-animation-play-state: paused;
+			animation-play-state: paused;
+			opacity: 0;
+			-webkit-transition: opacity 0.1s;
+			transition: opacity 0.1s;
+			padding: 2vw 0;
+		}
+		&-link {
+			display: inline-block;
+			cursor: none;
+			position: relative;
+			color: #fff;
+			-webkit-transition: opacity 0.4s;
+			transition: opacity 0.4s;
+			font-family: "Mak";
+			text-transform: uppercase;
+			-webkit-transition: all 0.4s;
+			transition: all 0.4s;
+			& span {
+				font-size: 32px;
+			}
+			&::before {
+				all: initial;
+				text-transform: uppercase;
+				counter-increment: menu;
+				position: absolute;
+				bottom: 60%;
+				left: 0;
+				pointer-events: none;
+			}
+			&:hover {
+				-webkit-transition-duration: 0.1s;
+				transition-duration: 0.1s;
+				opacity: 0;
+				& + .menu__item-img {
+					opacity: 1;
+					-webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0)
+						rotate3d(0, 0, 1, 4deg);
+					transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 4deg);
+					-webkit-transition: all 0.4s;
+					transition: all 0.4s;
+				}
+			}
+		}
+		&-img {
+			pointer-events: none;
+			position: absolute;
+			height: 50vh;
+			max-height: 300px;
+			opacity: 0;
+			left: 100%;
+			top: 50%;
+			-webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0)
+				translate3d(0, 20px, 0);
+			transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
+		}
+	}
 }
 .style__menu {
 	padding: 0vh 0 0 0vh;
@@ -62,32 +99,6 @@
 	--move-final: calc(-50% + var(--offset));
 	font-size: 8vw;
 	border-left: 5px solid #fff;
-}
-.menu__item-container {
-	position: absolute;
-	top: 0;
-	left: 0;
-	overflow: hidden;
-	color: #fff;
-	pointer-events: none;
-	mix-blend-mode: difference;
-}
-.menu__item-text {
-	width: -webkit-fit-content;
-	width: -moz-fit-content;
-	width: fit-content;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	position: relative;
-	-webkit-animation: menu__item 5s linear infinite;
-	animation: menu__item 5s linear infinite;
-	-webkit-animation-play-state: paused;
-	animation-play-state: paused;
-	opacity: 0;
-	-webkit-transition: opacity 0.1s;
-	transition: opacity 0.1s;
-	padding: 2vw 0;
 }
 .menu__item-link:hover ~ .menu__item-container .menu__item-text {
 	-webkit-animation-play-state: running;
@@ -102,13 +113,6 @@
 	font-size: 8vw;
 	padding: 1.6vw 1vw;
 	font-weight: 900;
-}
-.menu__item-link span {
-	font-size: 32px;
-}
-.menu__item-container span {
-	font-family: "Mak";
-	text-transform: uppercase;
 }
 @-webkit-keyframes menu__item{
 	0% {
