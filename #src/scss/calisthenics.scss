@@ -4,203 +4,222 @@
     position: relative;
     width: 100%;
     z-index: 20;
-    background-color: #000;
+    background-color: $black;
+    &__line {
+        &-black {
+            background-color: $black;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 101px;
+        }
+    }
+    &__bg {
+        width: 100%;
+        height: 3100px;
+        background-color: $black;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    &__list {
+        &-top {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            margin-top: 50px;
+            border-top: 1.5px solid $white;
+        }
+        &-bottom {
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            margin-bottom: 100px;
+            border-bottom: 1.5px solid $white;
+            width: 100%;
+        }
+    }
+    &__item {
+        width: 100%;
+        list-style: none;
+        height: 100px;
+        border-right: 1.5px solid $white;
+        color: $white;
+        &:last-child {
+            border-right: 0;
+        }
+        &-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-title {
+            color: $red;
+            font-family: "Mak";
+            font-size: 28px;
+            line-height: 30px;
+            font-weight: 600;
+        }
+        &-2 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 0px 0px 0px 15px;
+        }
+        &-font {
+            & span {
+                color: $white;
+                font-family: "Mak";
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 600;
+            }
+        }
+        &-3 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 0px 0px 0px 15px;
+        }
+        &-author {
+            & span {
+                color: $white;
+                font-family: "Mak";
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 600;
+            }
+        }
+        &-4 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 0px 0px 0px 15px;
+        }
+        &-4 {
+            display: flex;
+            justify-content: space-between;
+        }
+        &-number {
+            & span {
+                color: $white;
+                font-family: "Mak";
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 700;
+            }
+        }
+        &-circle {
+            &-1 {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background: $red;
+                margin-left: 228px;
+            }
+            &-2 {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background:$red;
+            }
+        }
+    }
+    &__images {
+        &-1 {
+            width: 1300px;
+            height: 550px;
+            position: absolute;
+            top: 190px;
+            left: 110px;
+            background: url(../img/calisthenics/1.jpg) no-repeat 50% 50%;
+            background-size: cover;
+        }
+        &-2 {
+            width: 800px;
+            height: 900px;
+            position: absolute;
+            top: 500px;
+            right: -100px;
+            z-index: 30;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            background: url(../img/calisthenics/3.jpg) no-repeat 50% 50%;
+            background-size: cover;
+        }
+        &-3 {
+            width: 1200px;
+            height: 500px;
+            position: absolute;
+            top: 1300px;
+            left: 90px;
+            background: url(../img/calisthenics/4.jpg) no-repeat 50% 60%;
+            background-size: cover;
+        }
+        &-4 {
+            width: 1000px;
+            height: 450px;
+            position: absolute;
+            top: 1800px;
+            right: 50px;
+            transform: rotate(340deg) !important;
+            overflow: hidden;
+        }
+        &-5 {
+            width: 1000px;
+            height: 500px;
+            position: absolute;
+            top: 2150px;
+            left: 90px;
+            z-index: 2;
+            transform: rotate(5deg) !important;
+            overflow: hidden;
+        }
+    }
+    &__img {
+        &-4 {
+            position: absolute;
+            top: -75%;
+            left: 0;
+            object-fit: cover;
+        }
+        &-5 {
+            position: absolute;
+            top: -75%;
+            left: 0;
+            object-fit: cover;
+        }
+    }
+    &__text {
+        &-1 {
+            position: absolute;
+            top: 1090px;
+            left: 110px;
+            width: 1000px;
+            height: 200px;
+            z-index: 40;
+            color:$red;
+            font-size: 72px;
+            font-weight: 700;
+        }
+        &-2 {
+            position: absolute;
+            top: 2290px;
+            left: 920px;
+            width: 1000px;
+            height: 200px;
+            z-index: 1;
+            transform: rotate(-270deg) !important;
+            color:$red;
+            font-size: 72px;
+            font-weight: 700;
+        }
+    }
 }
-.calisthenics__line-black {
-    background-color: #000;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 101px;
-}
-.calisthenics__bg {
-    width: 100%;
-    height: 3100px;
-    background-color: #000;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.calisthenics__list-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 50px;
-    border-top: 1.5px solid #fff;
-}
-.calisthenics__item {
-    width: 100%;
-    list-style: none;
-    height: 100px;
-    border-right: 1.5px solid #fff;
-    color: #fff;
-}
-.calisthenics__item:last-child {
-    border-right: 0;
-}
-.calisthenics__item-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.calisthenics__item-title {
-    color: red;
-    font-family: "Mak";
-    font-size: 28px;
-    line-height: 30px;
-    font-weight: 600;
-}
-.calisthenics__item-2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0px 0px 0px 15px;
-}
-.calisthenics__item-font span {
-    color: #fff;
-    font-family: "Mak";
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 600;
-}
-.calisthenics__item-3 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0px 0px 0px 15px;
-}
-.calisthenics__item-author span {
-    color: #fff;
-    font-family: "Mak";
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 600;
-}
-.calisthenics__item-4 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0px 0px 0px 15px;
-}
-.calisthenics__item-number span {
-    color: #fff;
-    font-family: "Mak";
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 700;
-}
-.calisthenics__images-1 {
-    width: 1300px;
-    height: 550px;
-    position: absolute;
-    top: 190px;
-    left: 110px;
-    background: url(../img/calisthenics/1.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-.calisthenics__images-2 {
-    width: 800px;
-    height: 900px;
-    position: absolute;
-    top: 500px;
-    right: -100px;
-    z-index: 30;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    background: url(../img/calisthenics/3.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-.calisthenics__images-3 {
-    width: 1200px;
-    height: 500px;
-    position: absolute;
-    top: 1300px;
-    left: 90px;
-    background: url(../img/calisthenics/4.jpg) no-repeat 50% 60%;
-    background-size: cover;
-}
-.calisthenics__images-4 {
-    width: 1000px;
-    height: 450px;
-    position: absolute;
-    top: 1800px;
-    right: 50px;
-    transform: rotate(340deg) !important;
-    overflow: hidden;
-}
-.calisthenics__img-4 {
-    position: absolute;
-    top: -75%;
-    left: 0;
-    object-fit: cover;
-}
-.calisthenics__images-5 {
-    width: 1000px;
-    height: 500px;
-    position: absolute;
-    top: 2150px;
-    left: 90px;
-    z-index: 2;
-    transform: rotate(5deg) !important;
-    overflow: hidden;
-}
-.calisthenics__img-5 {
-    position: absolute;
-    top: -75%;
-    left: 0;
-    object-fit: cover;
-}
-.calisthenics__list-bottom {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-bottom: 100px;
-    border-bottom: 1.5px solid #fff;
-    width: 100%;
-}
-.calisthenics__text-1 {
-    position: absolute;
-    top: 1090px;
-    left: 110px;
-    width: 1000px;
-    height: 200px;
-    z-index: 40;
-    color: red;
-    font-size: 72px;
-    font-weight: 700;
-}
-.calisthenics__text-2 {
-    position: absolute;
-    top: 2290px;
-    left: 920px;
-    width: 1000px;
-    height: 200px;
-    z-index: 1;
-    transform: rotate(-270deg) !important;
-    color: red;
-    font-size: 72px;
-    font-weight: 700;
-}
-.calisthenics__item-4 {
-    display: flex;
-    justify-content: space-between;
-}
-.calisthenics__item-circle-1 {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: red;
-    margin-left: 228px;
-}
-.calisthenics__item-circle-2 {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: red;
-}
+
 
