@@ -827,7 +827,7 @@ a {
 }
 
 .more__text {
-  color: white;
+  color: #fff;
   margin: 0;
   font-size: 64px;
   width: 100%;
@@ -843,7 +843,7 @@ a {
   white-space: nowrap;
 }
 
-.more__text.more__text-dark {
+.more__text-dark {
   color: red;
 }
 
