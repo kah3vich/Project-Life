@@ -4,212 +4,233 @@
     background: #000;
     background-size: cover;
     position: relative;
-}
-.street__bg-gif {
-    z-index: -1;
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    height: 3500px;
-}
-.street__list-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-top: 50px;
-    border-top: 1.5px solid #fff;
-}
-.street__item {
-    width: 100%;
-    list-style: none;
-    height: 100px;
-    border-right: 1.5px solid #fff;
-    color: #fff;
-}
-.street__item:last-child {
-    border-right: 0;
-}
-.street__item-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.street__item-title {
-    color: red;
-    font-family: "Mak";
-    font-size: 28px;
-    line-height: 30px;
-    font-weight: 600;
-}
-.street__item-2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0px 0px 0px 15px;
-}
-.street__item-font span {
-    color: #fff;
-    font-family: "Mak";
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 600;
-}
-.street__item-3 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0px 0px 0px 15px;
-}
-.street__item-author span {
-    color: #fff;
-    font-family: "Mak";
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 600;
-}
-.street__item-4 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0px 0px 0px 15px;
-}
-.street__item-number span {
-    color: #fff;
-    font-family: "Mak";
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 700;
-}
-.street__images-1 {
-    width: 1300px;
-    height: 750px;
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    background: url(../img/street/1.jpg) no-repeat 50% 50%;
-    background-size: cover;
-}
-.street__images-2 {
-    width: 800px;
-    height: 900px;
-    position: absolute;
-    top: 900px;
-    right: 0px;
-    z-index: 30;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    overflow: hidden;
-    transform: rotate(338deg);
-}
-.street__img-2 {
-    position: absolute;
-    top: -55%;
-    left: -40%;
-    object-fit: cover;
-}
-.street__images-3 {
-    width: 700px;
-    height: 900px;
-    position: absolute;
-    top: 2370px;
-    left: 0;
-    background: url(../img/street/2.jpg) no-repeat 50%;
-    background-size: cover;
-}
-.street__images-4 {
-    width: 700px;
-    height: 1000px;
-    position: absolute;
-    top: 1300px;
-    left: 0;
-    transform: rotate(7deg);
-    overflow: hidden;
-}
-.street__img-4 {
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    object-fit: cover;
-}
-.street__images-5 {
-    width: 800px;
-    height: 1000px;
-    position: absolute;
-    top: 2150px;
-    right: 0;
-    background: url(../img/street/12.jpg) no-repeat 50% 50%;
-    background-size: cover;
-    z-index: 2;
-}
-.street__list-bottom {
-    position: absolute;
-    top: 3330px;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-bottom: 100px;
-    border-bottom: 1.5px solid #fff;
-    width: 100%;
-}
-.street__text-1 {
-    position: absolute;
-    top: 1000px;
-    left: 110px;
-    width: 900px;
-    height: 200px;
-    z-index: 100;
-    color: red;
-    font-size: 60px;
-    font-weight: 700;
-}
-.street__text-2 {
-    position: absolute;
-    top: 1950px;
-    left: 500px;
-    width: 1000px;
-    height: 200px;
-    z-index: 100;
-    transform: rotate(28deg) !important;
-    color: red;
-    font-size: 45px;
-    font-weight: 700;
-}
-.street__text-3 {
-    position: absolute;
-    top: 2290px;
-    left: 100px;
-    width: 1000px;
-    height: 200px;
-    z-index: 100;
-    color: red;
-    font-size: 33px;
-    font-weight: 700;
-}
-.street__item-4 {
-    display: flex;
-    justify-content: space-between;
-}
-.street__item-circle-1 {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: red;
-    margin-left: 228px;
-}
-.street__images-container {
-    position: absolute;
-    top: 78%;
-    left: 10%;
-    mix-blend-mode: lighten;
-    z-index: 100;
-}
-.street__images-container h1 {
-    color: red;
-    text-transform: uppercase;
-    font-size: 80px;
-    margin-bottom: 0%;
+    &__bg {
+        &-gif {
+            z-index: -1;
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            height: 3500px;
+        }
+    }
+    &__list {
+        &-top {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            margin-top: 50px;
+            border-top: 1.5px solid #fff;
+        }
+        &-bottom {
+            position: absolute;
+            top: 3330px;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            margin-bottom: 100px;
+            border-bottom: 1.5px solid #fff;
+            width: 100%;
+        }
+    }
+    &__item {
+        width: 100%;
+        list-style: none;
+        height: 100px;
+        border-right: 1.5px solid #fff;
+        color: #fff;
+        &:last-child {
+            border-right: 0;
+        }
+        &-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-title {
+            color: red;
+            font-family: "Mak";
+            font-size: 28px;
+            line-height: 30px;
+            font-weight: 600;
+        }
+        &-2 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 0px 0px 0px 15px;
+        }
+        &-font {
+            & span {
+                color: #fff;
+                font-family: "Mak";
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 600;
+            }
+        }
+        &-3 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 0px 0px 0px 15px;
+        }
+        &-author {
+            & span {
+                color: #fff;
+                font-family: "Mak";
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 600;
+            }
+        }
+        &-4 {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin: 0px 0px 0px 15px;
+        }
+        &-number {
+            & span {
+                color: #fff;
+                font-family: "Mak";
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 700;
+            }
+        }
+        &-4 {
+            display: flex;
+            justify-content: space-between;
+        }
+        &-circle {
+            &-1 {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background: red;
+                margin-left: 228px;
+            }
+        }
+    }
+    &__images {
+        &-1 {
+            width: 1300px;
+            height: 750px;
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            background: url(../img/street/1.jpg) no-repeat 50% 50%;
+            background-size: cover;
+        }
+        &-2 {
+            width: 800px;
+            height: 900px;
+            position: absolute;
+            top: 900px;
+            right: 0px;
+            z-index: 30;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            overflow: hidden;
+            transform: rotate(338deg);
+        }
+        &-3 {
+            width: 700px;
+            height: 900px;
+            position: absolute;
+            top: 2370px;
+            left: 0;
+            background: url(../img/street/2.jpg) no-repeat 50%;
+            background-size: cover;
+        }
+        &-4 {
+            width: 700px;
+            height: 1000px;
+            position: absolute;
+            top: 1300px;
+            left: 0;
+            transform: rotate(7deg);
+            overflow: hidden;
+        }
+        &-5 {
+            width: 800px;
+            height: 1000px;
+            position: absolute;
+            top: 2150px;
+            right: 0;
+            background: url(../img/street/12.jpg) no-repeat 50% 50%;
+            background-size: cover;
+            z-index: 2;
+        }
+        &-container {
+            position: absolute;
+            top: 78%;
+            left: 10%;
+            mix-blend-mode: lighten;
+            z-index: 100;
+            & h1 {
+                color: red;
+                text-transform: uppercase;
+                font-size: 80px;
+                margin-bottom: 0%;
+            }
+        }
+        &-item {
+            position: relative;
+        }
+    }
+    &__img {
+        &-2 {
+            position: absolute;
+            top: -55%;
+            left: -40%;
+            object-fit: cover;
+        }
+        &-4 {
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            object-fit: cover;
+        }
+    }
+    &__text {
+        &-1 {
+            position: absolute;
+            top: 1000px;
+            left: 110px;
+            width: 900px;
+            height: 200px;
+            z-index: 100;
+            color: red;
+            font-size: 60px;
+            font-weight: 700;
+        }
+        &-2 {
+            position: absolute;
+            top: 1950px;
+            left: 500px;
+            width: 1000px;
+            height: 200px;
+            z-index: 100;
+            transform: rotate(28deg) !important;
+            color: red;
+            font-size: 45px;
+            font-weight: 700;
+        }
+        &-3 {
+            position: absolute;
+            top: 2290px;
+            left: 100px;
+            width: 1000px;
+            height: 200px;
+            z-index: 100;
+            color: red;
+            font-size: 33px;
+            font-weight: 700;
+        }
+    }
 }
 .street__images-items {
     position: relative;
@@ -236,6 +257,19 @@
 .street__images-items::before {
     clip: rect(54px, 250px, 56px, 40px);
 }
+.street__images-items::before {
+    animation: noise-anim 2s infinite linear alternate-reverse;
+}
+.street__images-items::after {    
+    animation: noise-anim 2s infinite linear alternate-reverse;
+}
+.street__images-container p {
+    color: grey;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 14px;
+}
 @keyframes noise-anim {
     0% {
         clip-path: inset(40% 0 61% 0);
@@ -255,17 +289,4 @@
     100% {
         clip-path: inset(58% 0 43% 0);
     }
-}
-.street__images-items::before {
-    animation: noise-anim 2s infinite linear alternate-reverse;
-}
-.street__images-items::after {    
-    animation: noise-anim 2s infinite linear alternate-reverse;
-}
-.street__images-container p {
-    color: grey;
-    font-family: Helvetica;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 14px;
 }
