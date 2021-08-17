@@ -1,7 +1,7 @@
 .footer {
 	width: 100%;
 	height: 1000px;
-	background-color: #000;
+	background-color: $black;
     position: relative;
     &__container {
         display: flex;
@@ -17,7 +17,7 @@
         font-family: Adieu Light,sans-serif;
         font-size: 3.75rem;
         line-height: 3.125rem;
-        color: #fff;
+        color: $white;
     }
     &__text {
         text-align: center;
@@ -26,7 +26,7 @@
         font-family: Adieu Light,sans-serif;
         font-size: 20px;
         line-height: 3.125rem;
-        color: #fff;
+        color: $white;
     }
     &__menu {
         &-list {
@@ -38,10 +38,10 @@
             align-items: center;
         }
         &-item {
-            border: 3px solid #d5a54e;
-            background: #000;
+            border: 3px solid $golden;
+            background: $black;
             &:hover {
-                background: #d5a54e;
+                background: $golden;
             }
             &:nth-child(even) {
                 margin-top: auto;
@@ -53,11 +53,11 @@
                 width: 61px;
                 height: 100%;
                 text-align: center;
-                color: #d5a54e;
+                color: $golden;
             }
             & svg {
                 margin-bottom: 15px;
-                fill: #d5a54e;
+                fill: $golden;
             }
         }
         &-link {
@@ -78,11 +78,11 @@
             align-items: center;
             height: 35px;
             & svg {
-                fill: #d5a54e;
+                fill: $golden;
             }
         }
         &-text {
-            color: gray;
+            color:$gray;
             font-family: "Mak";
             font-size: 16px;
             font-weight: 600;
@@ -93,7 +93,7 @@
             font-family: "Adieu Light", sans-serif;
             font-size: 19px;
             line-height: 3.125rem;
-            color: #fff;
+            color: $white;
         }
     }
     &__date {
@@ -105,24 +105,24 @@
             font-family: Adieu Light,sans-serif;
             font-size: 14px;
             line-height: 3.125rem;
-            color: gray;
+            color: $gray;
         }
     }
     &__menu {
         &-card {
-            background: #000;
+            background: $black;
             text-align: center;
             padding: 38px;
             transition: .4s ease;
             &:hover {
-                background: #d5a54e;
+                background: $golden;
                 transition: .4s ease;
             }
         }
     }
 }
 .footer__menu-card .footer__menu-text {
-    color: #d5a54e;
+    color: $golden;
     transition: .4s ease;
     width: 66px;
     font-weight: 600;
@@ -130,14 +130,14 @@
     font-size: 14px;
 }
 .footer__menu-card .footer__menu-icons svg {
-    fill: #d5a54e;
+    fill: $golden;
     transition: .4s ease;
 }
 .footer__menu-card:hover .footer__menu-text {
-    color: #000;
+    color: $black;
     transition: .4s ease;
 }
 .footer__menu-card:hover .footer__menu-icons svg {
-    fill: #000;
+    fill: $black;
     transition: .4s ease;
 }
