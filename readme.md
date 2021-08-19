@@ -2,17 +2,17 @@
 
 <a href="https://github.com/kah3vich"><img src="https://github.com/kah3vich/Project-Life/blob/master/dist/img/more/1.jpg" width="360" height="370" align="right"></a>
 
-``` Основная идея была создание галереи, в которой будут представлены работы современных фотографов и любителей. Так же в план входило добавление анимации - появление блоков и parallax эффект.```
+``` The main idea was created by creating a gallery. The plan also included adding animation - the appearance of blocks and the parallax effect.```
 
-## Ссылка на проект : [🍀](https://kah3vich.github.io/Project-Life/dist/index.html)
+## Link to the project : [🍀](https://kah3vich.github.io/Project-Life/dist/index.html)
 
-#### Языки и инструменты : 
+#### Languages and tools : 
 - Html 
 - Css / Scss
 - JavaScript 
 - Gulp
 <details>
-  <summary>:zap: Инструменты Js</summary>
+  <summary>:zap: Tools Js</summary>
   - WOW <br />
   - GSAP <br />
   - NiceScroll <br />
@@ -20,7 +20,7 @@
   - CircleType <br />
 </details>
 
-#### Отдельная благодарность :
+#### Special thanks :
 
 - ##### [Шпуля](https://www.instagram.com/mdxkah)
 - ##### [Slava K.](https://www.instagram.com/geexarts)
