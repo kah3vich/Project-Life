@@ -367,7 +367,7 @@
 @media (max-width: 1200px) {
     .header__circle-shape {
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 50%;
         -webkit-transform: translate(-50%,-50%);
         -ms-transform: translate(-50%,-50%);
@@ -376,6 +376,11 @@
         height: 600px;
         border: 1px solid #112819;
         border-radius: 100%;
+    }
+    .header__title {
+        position: absolute;
+        top: 55%;
+        left: 40%;
     }
     .header__animate-word {
         display: -webkit-box;
@@ -1217,6 +1222,255 @@
         top: 2579px;
         left: 25px;
         height: 435px;
+    }
+}
+@media (max-width: 750px) {
+    .calisthenics__text-1 {
+        width: 600px;
+        left: 90px;
+    }
+    .calisthenics__images-3 {
+        width: 690px;
+        left: 25px;
+    }
+    .skating__images-1 {
+        left: 40px;
+        width: 665px;
+    }
+    .footer__menu-list {
+        height: 200px;
+        width: 700px;
+    }
+    .street__text-3 {
+        width: 500px;
+    }
+    .street__text-2 {
+        width: 645px;
+    }
+    .street__images-4 {
+        width: 550px;
+    }
+    .poster__images-1 {
+        width: 680px;
+    }
+}
+@media (max-width: 700px) {
+    .header__text-one {
+        right: 320px;
+    }
+    .poster__images-1 {
+        width: 630px;
+    }
+    .poster__text-1 {
+        left: -315px;
+    }
+    .poster__images-2 {
+        width: 470px;
+    }
+    .poster__images-3 {
+        width: 500px;
+    }
+    .poster__text-2 {
+        left: 20px;
+    }
+    .poster__item-title {
+        font-size: 14px;
+    }
+    .calisthenics__images-1 {
+        width: 620px;
+        left: 45px;
+    }
+    .calisthenics__images-3 {
+        width: 650px;
+        left: 25px;
+    }
+    .calisthenics__images-4 {
+        width: 590px;
+        height: 450px;
+        position: absolute;
+        top: 1800px;
+        right: 90px;
+    }
+    .calisthenics__images-5 {
+        width: 610px;
+        top: 2275px;
+        left: 30px;
+    }
+    .calisthenics__text-2 {
+        left: 70px;
+    }
+    .skating__images-1 {
+        left: 40px;
+        width: 620px;
+    }
+    .skating__text-1 {
+        width: 440px;
+    }
+    .skating__images-3 {
+        width: 695px;
+        height: 419px;
+        top: 1472px;
+        left: -50px;
+    }
+    .skating__circle-container {
+        right: 20px;
+    }
+    .street__images-1 {
+        width: 630px;
+        left: 35px;
+        height: 700px;
+    }
+    .street__text-1 {
+        left: 35px;
+    }
+    .street__images-4 {
+        width: 520px;
+    }
+    .street__list-bottom {
+        display: none;
+    }
+    .skating__list-bottom {
+        display: none;
+    }
+    .skating__list-top {
+        display: none;
+    }
+    .calisthenics__list-bottom {
+        display: none;
+    }
+    .calisthenics__list-top {
+        display: none;
+    }
+    .poster__list-bottom {
+        display: none;
+    }
+    .poster__list-top {
+        display: none;
+    }
+}
+@media (max-width: 650px) {
+    .header__text-one {
+        right: 282px;
+    }
+    .poster__images-1 {
+        width: 595px;
+    }
+    .poster__images-2 {
+        width: 435px;
+        right: 5px;
+    }
+    .calisthenics__images-1 {
+        width: 570px;
+    }
+    .calisthenics__text-1 {
+        width: 600px;
+        left: 25px;
+    }
+    .calisthenics__images-3 {
+        width: 600px;
+        left: 25px;
+    }
+    .calisthenics__text-2 {
+        left: 28px;
+    }
+    .calisthenics__images-5 {
+        width: 610px;
+        top: 2275px;
+        left: -10px;
+    }
+    .skating__images-1 {
+        left: 40px;
+        width: 580px;
+    }
+    .skating__img-3 {
+        position: absolute;
+        top: -140%;
+        left: -65px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 100%;
+    }
+    .skating__text-2 {
+        position: absolute;
+        top: 1849px;
+        left: 95px;
+        width: 410px;
+        height: 140px;
+    }
+    .skating__images-5 {
+        width: 600px;
+        top: 2579px;
+        left: -15px;
+        height: 435px;
+    }
+    .street__images-1 {
+        width: 570px;
+        left: 35px;
+        height: 700px;
+    }
+    .street__images-4 {
+        left: 35px;
+    }
+    .street__text-1 {
+        width: 565px;
+        font-size: 38px;
+    }
+    .street__text-2 {
+        font-size: 35px;
+        left: -15px;
+    }
+    .footer__menu-list {
+        display: none;
+    }
+    .street__text-2 {
+        font-size: 30px;
+        left: -15px;
+        width: 570px;
+    }
+    .street__images-3 {
+        width: 550px;
+        height: 870px;
+        left: 30px;
+    }
+    .street__images-3 {
+        left: 30px;
+    }
+    .street__images-4 {
+        width: 480px;
+    }
+    .street__text-1 {
+        left: 10px;
+    }
+    .street__images-1 {
+        width: 540px;
+        left: 35px;
+        height: 700px;
+    }
+    .street__text-3 {
+        width: 445px;
+    }
+    .skating__images-1 {
+        left: 40px;
+        width: 520px;
+    }
+    .calisthenics__text-2 {
+        left: -20px;
+    }
+    .calisthenics__images-5 {
+        width: 610px;
+        top: 2275px;
+        left: -65px;
+    }
+    .calisthenics__images-3 {
+        width: 553px;
+        left: 25px;
+    }
+    .calisthenics__text-1 {
+        width: 507px;
+        left: 25px;
+    }
+    .calisthenics__images-1 {
+        width: 510px;
     }
 }
 /* ---------------------------------------------------------------------- */

@@ -20,8 +20,3 @@
   - CircleType <br />
 </details>
 
-#### Special thanks :
-
-- ##### [Шпуля](https://www.instagram.com/mdxkah)
-- ##### [Slava K.](https://www.instagram.com/geexarts)
-
