@@ -83,7 +83,7 @@ npm install
       <br/>
       <p>JavaScript</p>
     </td>
-       <td align="center" width="96">
+    <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/a0b5aba54a9ac8c40b00b52742c4b63f76ca3e4c/assets/icon/html5.svg" width="48" height="48" alt="HTML" />
       </a>
